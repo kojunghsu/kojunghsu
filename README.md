@@ -6,23 +6,20 @@ Currently completing an M.S. in Business Analytics at the University of Minnesot
 
 ## Featured Projects
 
-### [Clinical Note RAG Intelligence](https://github.com/kojunghsu/clinical-note-rag-intelligence)
+### [Amazon Video Games Hybrid Recommender](https://github.com/kojunghsu/amazon-video-games-hybrid-recommender)
+Leakage-safe hybrid Top-K recommender combining BPR and metadata signals, evaluated on 10,000 test users with HR@10 of 0.6428 and NDCG@10 of 0.4288, with cold-start handling, an API, tests, CI, and a public demo.
 
-Hybrid retrieval system for evidence-grounded question answering across clinical notes, combining structured search, FAISS semantic retrieval, cross-encoder reranking, and RAGAS evaluation.
-
-`Python` `RAG` `FAISS` `SQLite` `RAGAS` `Streamlit`
+`Python` `PyTorch` `BPR` `Recommendation Systems` `FastAPI` `Docker`
 
 ### [Incremental Sponsored Search ROI](https://github.com/kojunghsu/incremental-roi-sponsored-search)
-
-Difference-in-Differences analysis estimating the causal impact of sponsored search advertising, including 9,911 incremental weekly visits and a 19% organic traffic recovery effect.
+Decision-focused Difference-in-Differences analysis estimating a baseline 9.9K weekly traffic effect, testing pre-trends and specification sensitivity, and translating an 8.1K–14.3K effect range into scenario-based ROI decisions.
 
 `R` `Causal Inference` `Difference-in-Differences` `Marketing Analytics`
 
-### [Route Execution Confidence Scoring](https://github.com/kojunghsu/route-execution-confidence-scoring)
+### [Clinical Note RAG Intelligence](https://github.com/kojunghsu/clinical-note-rag-intelligence)
+Evidence-grounded clinical note QA system combining structured search, FAISS retrieval, cross-encoder reranking, citations, RAGAS evaluation, automated tests, and a public interactive demo.
 
-Confidence-scoring framework that integrates GPS reliability, stop coverage, path continuity, and route execution signals to classify transportation trips for operational review.
-
-`Python` `Feature Engineering` `Data Quality` `Operational Analytics`
+`Python` `RAG` `FAISS` `SQLite` `RAGAS` `Streamlit`
 
 ## What I Work On
 
